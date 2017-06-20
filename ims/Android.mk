@@ -11,7 +11,7 @@ LOCAL_JAVA_LIBRARIES := ims-common
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := ims-ext-common
 
-include $(BUILD_STATIC_JAVA_LIBRARY)
+include $(BUILD_JAVA_LIBRARY)
 
 # Include subdirectory makefiles
 # ============================================================
